@@ -1,7 +1,7 @@
 {
   "name": "Kristina100070.github.sprint12",
   "version": "1.0.0",
-  "description": "",
+  "description": "proekt Mesto",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
