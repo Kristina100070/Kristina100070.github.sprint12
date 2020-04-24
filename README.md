@@ -1,18 +1,21 @@
 #Проект Mesto
 
-#Kristina100070.github.sprint12
+#Kristina100070.github.sprint13
 
-[Основная страница](https://github.com/Kristina100070/Kristina100070.github.sprint12)
+[REST API проекта Mesto](https://github.com/Kristina100070/Kristina100070.github.sprint13)
 
-В каталоге проекта вы можете запустить:
+Node.js приложение подключается к серверу Mongo по адресу mongodb://localhost:27017/mestodb;
 
-##npm run start
+##Запросы: 
 
-- запустит сервер на localhost:3000;
+*GET /cards — возвращает все карточки
 
-##npm run dev
+*POST /cards — создаёт карточку
 
-- запустит сервер на localhost:3000 с хот релоудом;
+*DELETE /cards/:cardId — удаляет карточку по идентификатору
 
+*GET /users — возвращает всех пользователей
 
-v0.0.2 -m "my second version"
+*GET /users/:userId - возвращает пользователя по _id
+
+*POST /users — создаёт пользователя
